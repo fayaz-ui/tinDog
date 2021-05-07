@@ -1,0 +1,175 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-Bold";
+}
+h2{
+    font-family: Montserrat-Bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width:900px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta h3{
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+    color: white;
+    padding-top: 5%;
+}
+
+
+
+.footer{
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__link{
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__link:hover,
+.social-list__link:hover{
+    opacity: .7;
+}
+.fot{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+    padding-bottom: 5%;
+}
+.social-list__item{
+    margin: 0 .5em;
+}
+
+.social-list__link{
+    padding: .5em;
+}
